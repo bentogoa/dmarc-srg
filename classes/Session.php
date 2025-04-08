@@ -145,7 +145,7 @@ class Session
      */
     private function start(): void
     {
-        \ini_set('session.use_strict_mode', 1);
+        \ini_set('session.use_strict_mode', 'yes');
         $this->strictStart();
 
         // Session control
